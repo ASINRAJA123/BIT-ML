@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q1",
+    "title": "Sum of Two Numbers",
+    "description": "Write a Python script that reads two numbers from input, adds them together, and prints the result.",
+    "test_cases": [
+      {
+        "input": "5\n10",
+        "expected_output": "15.0"
+      },
+      {
+        "input": "-5\n5",
+        "expected_output": "0.0"
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "title": "String Repetition",
+    "description": "Write a Python script that reads a string and an integer `n` from input, and prints the string repeated `n` times.",
+    "test_cases": [
+      {
+        "input": "hello\n3",
+        "expected_output": "hellohellohello"
+      },
+      {
+        "input": "py\n5",
+        "expected_output": "pypypypypy"
+      }
+    ]
+  }
+]

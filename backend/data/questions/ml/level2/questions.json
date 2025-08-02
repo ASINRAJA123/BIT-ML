@@ -1,0 +1,13 @@
+[
+  {
+    "id": "q1",
+    "title": "Reverse a String",
+    "description": "Write a Python function `reverse_string(s)` that takes a string and returns it reversed.",
+    "evaluation": "testcase",
+    "template": "def reverse_string(s):\n    # Your code here\n    return \"\"",
+    "test_cases": [
+      { "input": "\"hello\"", "expected": "olleh" },
+      { "input": "\"Python\"", "expected": "nohtyP" }
+    ]
+  }
+]

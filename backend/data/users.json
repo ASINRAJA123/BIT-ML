@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "username": "s001",
+      "password": "$2b$10$KNx1JsmoBvzUeZkmQQ3N4OBaThn2Nk8TLLsF.ooIHlcJnLZkTGSX.",
+      "role": "student",
+      "progress": {
+        "ml": {
+          "level1": {
+            "q1": "not_started",
+            "q2": "not_started"
+          },
+          "level2": {
+            "q1": "not_started"
+          }
+        }
+      }
+    },
+    {
+      "username": "admin",
+      "password": "$2b$10$KNx1JsmoBvzUeZkmQQ3N4OBaThn2Nk8TLLsF.ooIHlcJnLZkTGSX.",
+      "role": "admin"
+    },
+    {
+      "username": "student1",
+      "password": "$2b$10$KNx1JsmoBvzUeZkmQQ3N4OBaThn2Nk8TLLsF.ooIHlcJnLZkTGSX.",
+      "role": "student",
+      "progress": {
+        "ds": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        },
+        "dsa": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        },
+        "ml": {
+          "level1": "completed",
+          "level2": "unlocked"
+        },
+        "web": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        }
+      }
+    },
+    {
+      "username": "student2",
+      "password": "$2b$10$KNx1JsmoBvzUeZkmQQ3N4OBaThn2Nk8TLLsF.ooIHlcJnLZkTGSX.",
+      "role": "student",
+      "progress": {
+        "ds": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        },
+        "dsa": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        },
+        "ml": {
+          "level1": "completed",
+          "level2": "unlocked"
+        },
+        "web": {
+          "level1": "unlocked",
+          "level2": "locked",
+          "level3": "locked"
+        }
+      }
+    }
+  ]
+}
