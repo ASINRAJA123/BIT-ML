@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../App';
 import Spinner from '../Spinner/Spinner';
 import './ExamPage.css';
+import Editor from "@monaco-editor/react";
 
 // Reusable Cell component for the notebook interface
 const CodeCell = ({ question, cellCode, onCodeChange, onRun, onValidate, runResult, isRunning, isValidated }) => {
@@ -21,12 +22,18 @@ const CodeCell = ({ question, cellCode, onCodeChange, onRun, onValidate, runResu
                 <p dangerouslySetInnerHTML={{ __html: question.description.replace(/\n/g, '<br/>') }} />
             </div>
             <div className="editor-panel">
-                <textarea 
-                    className="code-editor" 
-                    value={cellCode} 
-                    onChange={onCodeChange} 
-                    spellCheck="false" 
-                    placeholder="# Your Python code for this question here..."
+                <Editor
+                    height="200px"
+                    language="python"
+                    theme="vs-dark"
+                    value={cellCode}
+                    onChange={(value) => onCodeChange({ target: { value: value || '' } })}
+                    options={{
+                        minimap: { enabled: false },
+                        fontSize: 14,
+                        scrollBeyondLastLine: false,
+                        wordWrap: 'on'
+                    }}
                 />
             </div>
             <div className="cell-actions">
@@ -112,13 +119,30 @@ const ExamPage = () => {
     const handleRunCell = async (questionId, customInput) => {
         setIsLoading(true);
         setRunOutputs(prev => ({ ...prev, [questionId]: null }));
-        const cellCode = allCode[questionId]?.trim() ? allCode[questionId] : 'pass';
+
         try {
-            const res = await fetch(`http://localhost:3001/api/evaluate/run-cell`, {
+            // Get index of the current cell
+            const currentIndex = questions.findIndex(q => q.id === questionId);
+
+            // Collect cumulative code from all previous cells + current cell
+            const cumulativeCode = questions
+                .slice(0, currentIndex + 1)
+                .map(q => {
+                    const code = allCode[q.id]?.trim();
+                    return code && code.length > 0 ? code : 'pass';
+                })
+                .join('\n\n');
+
+            // Send cumulative code to backend
+            const res = await fetch('http://localhost:3001/api/evaluate/run-cell', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ cellCode, customInput }),
+                body: JSON.stringify({
+                    cellCode: cumulativeCode,
+                    customInput: customInput || ''
+                }),
             });
+
             const result = await res.json();
             setRunOutputs(prev => ({ ...prev, [questionId]: result }));
         } catch (error) {
@@ -127,6 +151,8 @@ const ExamPage = () => {
             setIsLoading(false);
         }
     };
+
+
 
     // This is the STATELESS validation of the current cell.
     const handleValidateCell = async (questionId) => {
