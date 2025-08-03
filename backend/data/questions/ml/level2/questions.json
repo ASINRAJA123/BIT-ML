@@ -1,13 +1,32 @@
 [
   {
     "id": "q1",
-    "title": "Reverse a String",
-    "description": "Write a Python function `reverse_string(s)` that takes a string and returns it reversed.",
-    "evaluation": "testcase",
-    "template": "def reverse_string(s):\n    # Your code here\n    return \"\"",
+    "title": "Sum of Two Numbers",
+    "description": "Write a Python script that reads two numbers from input (one per line), adds them together, and prints the result.",
     "test_cases": [
-      { "input": "\"hello\"", "expected": "olleh" },
-      { "input": "\"Python\"", "expected": "nohtyP" }
+      {
+        "input": "5\n10",
+        "expected_output": "15.0"
+      },
+      {
+        "input": "-5\n5",
+        "expected_output": "0.0"
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "title": "String Repetition",
+    "description": "Write a Python script that reads a string and an integer `n` from input (on separate lines), and prints the string repeated `n` times.",
+    "test_cases": [
+      {
+        "input": "hello\n3",
+        "expected_output": "hellohellohello"
+      },
+      {
+        "input": "py\n5",
+        "expected_output": "pypypypypy"
+      }
     ]
   }
 ]

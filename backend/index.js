@@ -7,9 +7,8 @@ const authRoutes = require('./routes/auth');
 const questionsRoutes = require('./routes/questions');
 const evaluateRoutes = require('./routes/evaluate');
 const usersRoutes = require('./routes/users');
-const adminRoutes = require('./routes/admin'); // <-- Add this
-const submissionsRoutes = require('./routes/submissions'); // <-- ADD THIS
-
+const adminRoutes = require('./routes/admin'); 
+const submissionsRoutes = require('./routes/submissions');
 
 const app = express();
 const PORT = 3001;
@@ -21,11 +20,10 @@ app.use(express.json());
 // API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/questions', questionsRoutes);
-app.use('/api/evaluate', evaluateRoutes);
+app.use('/api/evaluate', evaluateRoutes); // This now correctly points to your evaluate.js file
 app.use('/api/users', usersRoutes);
-app.use('/api/admin', adminRoutes); // <-- Add this
-app.use('/api/submissions', submissionsRoutes); // <-- ADD THIS
-
+app.use('/api/admin', adminRoutes); 
+app.use('/api/submissions', submissionsRoutes);
 
 // Serve static assets if in production
 if (process.env.NODE_ENV === 'production') {

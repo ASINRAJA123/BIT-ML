@@ -1,3 +1,3 @@
-subject,level,id,title,description,function_name,tc1_input,tc1_output,tc2_input,tc2_output,tc3_input,tc3_output
-ml,1,q3,"Calculate Average","Write a function to calculate the average.","calculate_average","[10, 20, 30]","20.0","[5, 5]","5.0",,
-python,1,q1,"Hello World","Write a function that returns 'Hello, World!'.","hello_world","","'Hello, World!'",,,
+subject,level,id,title,description,tc1_input,tc1_output,tc2_input,tc2_output
+ml,1,q3,"Add Two Numbers","Read two numbers from input and print their sum.","5\n10","15.0","-2\n-3","-5.0"
+python,1,q1,"Greet User","Read a name and print 'Hello, [name]!'","World","Hello, World!","Alice","Hello, Alice!"
