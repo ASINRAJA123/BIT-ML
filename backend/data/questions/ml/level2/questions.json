@@ -1,31 +1,37 @@
 [
   {
-    "id": "q1",
-    "title": "Sum of Two Numbers",
-    "description": "Write a Python script that reads two numbers from input (one per line), adds them together, and prints the result.",
+    "id": "house_prices_full_task",
+    "title": "Linear Regression: House Price Prediction",
+    "description": "You are a data scientist at a real estate company. Your task is to build a linear regression model to predict house prices based on the provided dataset.<br><br><h4>Part 1: Data Inspection</h4>Load the training data from <code>'./data/datasets/house-prices/train.csv'</code> and print the sum of null values for each column to inspect for missing data.<br><br><h4>Part 2: Model Training & Evaluation</h4>Preprocess the data by selecting only numeric columns and dropping rows with any missing values. Then, train a Linear Regression model using 'SalePrice' as the target. After training, <strong>print the RMSE and R² score</strong> of your model on the training data.<br><br><h4>Part 3: Prediction</h4>Load the test data from <code>'./data/datasets/house-prices/test.csv'</code>. Preprocess it in the exact same way as the training data. Use your trained model to predict the sale prices and save the results to a file named <strong><code>submission.csv</code></strong> in the root directory. The file must have two columns: 'Id' and 'SalePrice'.",
+    "starter_code": "import pandas as pd\nimport numpy as np\nfrom sklearn.linear_model import LinearRegression\nfrom sklearn.metrics import mean_squared_error, r2_score\n\n# --- Part 1: Load and Inspect Data ---\n# Load the dataset from './data/datasets/house-prices/train.csv'\ndf_train = pd.read_csv('./data/datasets/house-prices/train.csv')\n\n# Print the sum of nulls for each column that has missing values\nprint('--- Missing Values Analysis ---')\nmissing_vals = df_train.isnull().sum()\nprint(missing_vals[missing_vals > 0])\n\n\n# --- Part 2: Train and Evaluate Model ---\n# Note: Use the df_train DataFrame from above\n\n# Your code here to select numeric types, drop NAs, define X and y, and train the model...\n\n\n\n# Your code here to make predictions on the training set and print RMSE and R-squared...\nprint('\\n--- Model Evaluation (on training data) ---')\n# print(f\"RMSE: {rmse}\")\n# print(f\"R-squared: {r2}\")\n\n\n# --- Part 3: Generate Predictions ---\n# Load the test data\ndf_test = pd.read_csv('./data/datasets/house-prices/test.csv')\n\n# Your code here to preprocess the test data IDENTICALLY to the training data...\n\n\n\n# Your code here to use the trained model to predict prices...\n\n\n\n# Create a submission DataFrame and save to 'submission.csv'\n# submission_df = pd.DataFrame({'Id': df_test['Id'], 'SalePrice': predictions})\n# submission_df.to_csv('submission.csv', index=False)\n\nprint('\\n--- Prediction File ---')\nprint('submission.csv created successfully.')\n",
     "test_cases": [
       {
-        "input": "5\n10",
-        "expected_output": "15.0"
+        "type": "output_contains",
+        "description": "Check if 'LotFrontage' and its count '259' are in the output",
+        "expected_substring": "LotFrontage" 
       },
       {
-        "input": "-5\n5",
-        "expected_output": "0.0"
-      }
-    ]
-  },
-  {
-    "id": "q2",
-    "title": "String Repetition",
-    "description": "Write a Python script that reads a string and an integer `n` from input (on separate lines), and prints the string repeated `n` times.",
-    "test_cases": [
-      {
-        "input": "hello\n3",
-        "expected_output": "hellohellohello"
+        "type": "output_contains",
+        "description": "Check if the value '259' is present in the output",
+        "expected_substring": "259"
       },
       {
-        "input": "py\n5",
-        "expected_output": "pypypypypy"
+        "type": "output_contains",
+        "description": "Check if the RMSE score is printed (verifies label and approximate value)",
+        "expected_substring": "RMSE: 34"
+      },
+      {
+        "type": "output_contains",
+        "description": "Check if the R-squared score is printed (verifies label and approximate value)",
+        "expected_substring": "R-squared: 0.81"
+      },
+      {
+        "type": "csv_comparison",
+        "description": "Compare predicted prices against the solution",
+        "student_file": "submission.csv",
+        "solution_file": "./data/datasets/house-prices/solution_submission.csv",
+        "key_columns": ["Id", "SalePrice"],
+        "similarity_threshold": 0.80
       }
     ]
   }

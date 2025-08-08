@@ -10,5 +10,664 @@
     "level": "level1",
     "status": "failed",
     "timestamp": "2025-08-02T16:59:42.777Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T13:40:51.127Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T13:43:21.961Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T13:44:38.864Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T13:55:02.547Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-08-07T13:56:28.288Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T13:57:21.738Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T13:58:06.560Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T14:02:11.285Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-08-07T14:07:27.178Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T14:08:26.875Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T14:19:34.843Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-08-07T14:25:27.878Z"
+  },
+  {
+    "questionId": "house_prices_full_task",
+    "status": "failed",
+    "timestamp": "2025-08-07T14:27:52.981Z",
+    "codeFilePath": "code\\student1_ml_2_house_prices_full_task_2025-08-07T14-27-47.604Z.py"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T14:38:38.680Z",
+    "tests_passed": 2,
+    "total_tests": 3,
+    "csv_similarity": 0.36257710760795064
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T14:57:20.109Z",
+    "tests_passed": 3,
+    "total_tests": 3,
+    "csv_similarity": 0.8498971898560658
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T15:00:50.476Z",
+    "tests_passed": 3,
+    "total_tests": 3,
+    "csv_similarity": 0.8498971898560658
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T15:05:49.311Z",
+    "tests_passed": 3,
+    "total_tests": 3,
+    "csv_similarity": 0.8498971898560658
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T15:06:53.893Z",
+    "tests_passed": 1,
+    "total_tests": 3,
+    "csv_similarity": 0
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T15:14:35.260Z",
+    "tests_passed": 3,
+    "total_tests": 3,
+    "csv_similarity": 0.8498971898560658
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T15:15:24.265Z",
+    "tests_passed": 1,
+    "total_tests": 3,
+    "csv_similarity": 0
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T15:15:42.312Z",
+    "tests_passed": 0,
+    "total_tests": 5,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-08-07T15:17:16.468Z",
+    "tests_passed": 5,
+    "total_tests": 5,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-08-07T15:17:19.633Z",
+    "tests_passed": 5,
+    "total_tests": 5,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T15:36:36.440Z",
+    "tests_passed": 0,
+    "total_tests": 5,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:04:05.596Z",
+    "tests_passed": 1,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:04:08.313Z",
+    "tests_passed": 0,
+    "total_tests": 2,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:06:28.991Z",
+    "tests_passed": 1,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:06:31.204Z",
+    "tests_passed": 0,
+    "total_tests": 2,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:09:03.237Z",
+    "tests_passed": 1,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:09:05.885Z",
+    "tests_passed": 0,
+    "total_tests": 2,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:13:28.306Z",
+    "tests_passed": 1,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:13:31.481Z",
+    "tests_passed": 0,
+    "total_tests": 2,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:13:44.341Z",
+    "tests_passed": 0,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:17:00.634Z",
+    "tests_passed": 0,
+    "total_tests": 2,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:18:53.642Z",
+    "tests_passed": 1,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:18:56.115Z",
+    "tests_passed": 0,
+    "total_tests": 2,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:27:43.211Z",
+    "tests_passed": 1,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:27:47.644Z",
+    "tests_passed": 0,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:29:44.921Z",
+    "tests_passed": 1,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:29:47.935Z",
+    "tests_passed": 0,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:30:42.733Z",
+    "tests_passed": 0,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:34:20.162Z",
+    "tests_passed": 1,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:34:24.094Z",
+    "tests_passed": 0,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:36:26.474Z",
+    "tests_passed": 1,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:36:28.897Z",
+    "tests_passed": 0,
+    "total_tests": 1,
+    "csv_similarity": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:45:04.954Z",
+    "tests_passed": 1,
+    "total_tests": 3,
+    "csv_similarity": 0,
+    "details": {
+      "house_prices_1_preprocess": "1/1",
+      "house_prices_2_train_rmse": "0/1",
+      "house_prices_3_predict": "0/1"
+    },
+    "execution_error": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:46:01.326Z",
+    "tests_passed": 3,
+    "total_tests": 3,
+    "csv_similarity": 0.8498971898560658,
+    "details": {
+      "house_prices_1_preprocess": "1/1",
+      "house_prices_2_train_rmse": "1/1",
+      "house_prices_3_predict": "1/1"
+    },
+    "execution_error": null
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:47:07.455Z",
+    "tests_passed": 0,
+    "total_tests": 50,
+    "csv_similarity": null,
+    "details": {
+      "q1": "0/5",
+      "q2": "0/5",
+      "q3": "0/5",
+      "q4": "0/5",
+      "q5": "0/5",
+      "q6": "0/5",
+      "q7": "0/5",
+      "q8": "0/5",
+      "q9": "0/5",
+      "q10": "0/5"
+    },
+    "execution_error": "Traceback (most recent call last):\r\n  File \"C:\\Users\\asinr\\ml\\backend\\temp_script_1754585227033.py\", line 24, in <module>\r\n    numbers = list(map(float, input().split()))\r\n                              ^^^^^^^\r\nEOFError: EOF when reading a line\r\n"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:48:01.313Z",
+    "tests_passed": 0,
+    "total_tests": 50,
+    "csv_similarity": null,
+    "details": {
+      "q1": "0/5",
+      "q2": "0/5",
+      "q3": "0/5",
+      "q4": "0/5",
+      "q5": "0/5",
+      "q6": "0/5",
+      "q7": "0/5",
+      "q8": "0/5",
+      "q9": "0/5",
+      "q10": "0/5"
+    },
+    "execution_error": null
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:50:05.649Z",
+    "tests_passed": 0,
+    "total_tests": 2,
+    "csv_similarity": 0
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:51:00.762Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:51:53.069Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:54:47.288Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:55:08.282Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T16:55:52.280Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T16:56:47.974Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:02:47.998Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T17:09:13.140Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T17:19:35.930Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:19:56.334Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T17:23:31.360Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T17:25:20.230Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T17:26:39.923Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T17:29:18.027Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:31:42.926Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:33:23.377Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:34:58.056Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:36:24.790Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "timestamp": "2025-08-07T17:41:06.462Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:42:28.630Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:45:23.577Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:46:15.045Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:51:36.478Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "failed",
+    "timestamp": "2025-08-07T17:52:00.307Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-08-07T17:56:03.480Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "tests_passed": 2,
+    "total_tests": 5,
+    "csv_similarity": 0,
+    "timestamp": "2025-08-07T17:56:28.153Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "tests_passed": 5,
+    "total_tests": 5,
+    "csv_similarity": 0.8498971898560658,
+    "timestamp": "2025-08-07T17:58:30.114Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "tests_passed": 2,
+    "total_tests": 5,
+    "csv_similarity": 0,
+    "timestamp": "2025-08-07T17:58:59.813Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "failed",
+    "tests_passed": 2,
+    "total_tests": 5,
+    "csv_similarity": 0,
+    "timestamp": "2025-08-07T17:59:31.221Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "tests_passed": 5,
+    "total_tests": 5,
+    "csv_similarity": 0.8498971898560658,
+    "timestamp": "2025-08-07T18:01:02.151Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level2",
+    "status": "passed",
+    "tests_passed": 5,
+    "total_tests": 5,
+    "csv_similarity": 0.8498971898560658,
+    "timestamp": "2025-08-07T18:06:02.577Z"
+  },
+  {
+    "subject": "ml",
+    "level": "level1",
+    "status": "passed",
+    "timestamp": "2025-08-07T18:07:10.019Z"
   }
 ]
